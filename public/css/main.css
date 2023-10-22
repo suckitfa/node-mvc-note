@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    display: flex;
+    background-color: yellow;
+    color: red;
+    list-style: none;
+}
+
+.item {
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    border: 1px solid red;
+}
+.card {
+    border: 1px solid red;
+    max-width: 20rem;
+}
+.card__img img {
+    max-width: 20rem;
+    min-width: 20rem;
+    width: 20rem
+}

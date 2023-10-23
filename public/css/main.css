@@ -18,3 +18,18 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+main {
+    height: calc(100vh - 65px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 1em;
+}
+
+.btn {
+    padding: .4em;
+}

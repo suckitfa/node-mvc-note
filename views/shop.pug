@@ -15,15 +15,20 @@ html(lang="en")
                     li.item
                         a(href="/admin/add-product") Add product  
         main
-            .grid 
-                each product in products
-                    article.card.product-item
-                        header.product-header
-                            h1.product-title #{product.title}
-                        div.card__img
-                            img(src="/img/doge.jpg", alt="a book")
-                        div.card__content 
-                            h2.product__price $19.99
-                            p.product_description A very nice book.....
-                        .card_actions 
-                            button.btn Add to Card
+            if products.length > 0
+                .grid 
+                    each product in products
+                        article.card.product-item
+                            header.product-header
+                                h1.product-title #{product.title}
+                            div.card__img
+                                img(src="/img/doge.jpg", alt="a book")
+                            div.card__content 
+                                h2.product__price $19.99
+                                p.product_description A very nice book.....
+                            .card_actions 
+                                button.btn Add to Card
+            else
+                .empty 
+                    h1 No Products!
+                    p.description Please add some products in the Add products Page.....

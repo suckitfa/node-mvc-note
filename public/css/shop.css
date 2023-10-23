@@ -38,3 +38,21 @@
   color: aquamarine;
   border: none;
 }
+
+.empty {
+    height: calc(100vh - 53px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.description {
+  color: #fff;
+  padding-top: 5px;
+  /* padding-left:15%; */
+  /* border: 1px solid #fff; */
+}
